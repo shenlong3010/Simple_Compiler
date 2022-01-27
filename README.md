@@ -12,3 +12,5 @@ A language to implement PL/o compiler: C
 Development environment: unix
 
 IDE: vim
+
+There are 3 main parts for this compiler: the lexer, the parser, and the code generator. The lexer's job is to take the free-form source code and turn it into a series of tokens, the individual units of the language. The parser's job is to take that series of tokens and ensure that their ordering follows the rules of the language syntax. The code generator's job is to produce equivalent C language.
